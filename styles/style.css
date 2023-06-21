@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+body{
+  background-color: rgb(252, 250, 250);
+}
+
+.content{
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemRemovido{
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(82, 81, 81);
+  background-color: rgb(241, 155, 155);
+  letter-spacing: 2px;
+}
+
+.estiloPositivo{
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(82, 81, 81);
+  background-color: rgb(155, 241, 155);
+  letter-spacing: 2px;
+}
+
+.estiloNegativo{
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(82, 81, 81);
+  background-color: rgb(223, 87, 87);
+  letter-spacing: 2px;
+}
+
+.estiloEditado{
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(82, 81, 81);
+  background-color: rgb(225, 241, 155);
+  letter-spacing: 2px;
+}
+
+span{
+  padding: 0 10rem 0 0;
+}
+
+h1{
+  padding-bottom: 0.5rem;
+  color: rgb(13, 13, 65);
+
+  letter-spacing: 1.5px;
+}
+
+.container{
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 9px 2px gray;
+  text-align: center ;
+}
+
+.edit-btn {
+  font-size: 15px;
+  color: green;
+  border: 0;
+  background-color: white;
+  padding-right: 10px;
+}
+
+.delete-btn{
+  font-size: 15px;
+  color: red;
+  border: 0;
+  background-color: white;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.btn {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input-area{
+  width: 350px;
+}
+
+.submit{
+  padding: 0.2rem;
+  letter-spacing: 1px;
+  border: 0;
+  background-color: rgb(238, 238, 238);
+  border-radius: 2px;
+}
+
+.submit-btn{
+  background-color: rgb(162, 193, 252);
+  border-radius: 2px;
+  
+}
+
+
+button:hover{
+  cursor: pointer;
+}
+
+.submit:focus {
+  outline: 2px solid rgb(158, 165, 255);
+}
+
+*:focus{
+  outline: 0;
+}
